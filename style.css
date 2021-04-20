@@ -1,0 +1,28 @@
+.padre{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column-gap: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+   
+}
+
+.hijito{
+    background-color: red;
+
+}
+
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }
+  }
