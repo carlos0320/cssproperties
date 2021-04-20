@@ -4,9 +4,13 @@
     border: 2px solid;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
     
 }
 
 .hijitos{
     background-color: red;
+    
 }
